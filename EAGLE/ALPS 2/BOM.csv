@@ -1,0 +1,24 @@
+Partlist
+
+Exported from alps2.sch at 8/18/2022 4:34 PM
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device     Package    Library  Sheet
+
+U$1      HSFPAR003A     HSFPAR003A HSFPAR003A colour   2
+U$2      HSFPAR003A     HSFPAR003A HSFPAR003A colour   2
+U$3      HSFPAR003A     HSFPAR003A HSFPAR003A colour   2
+U$4      HSFPAR003A     HSFPAR003A HSFPAR003A colour   2
+U$5      PADSMALL       PADSMALL   PAD        colour   2
+U$6      PADSMALL       PADSMALL   PAD        colour   2
+U$7      PADSMALL       PADSMALL   PAD        colour   2
+U$8      PADSMALL       PADSMALL   PAD        colour   2
+U$9      PADSMALL       PADSMALL   PAD        colour   2
+U$10     PADSMALL       PADSMALL   PAD        colour   2
+U$11     PADSMALL       PADSMALL   PAD        colour   2
+U$12     PADSMALL       PADSMALL   PAD        colour   2
+U$13     PADSMALL       PADSMALL   PAD        colour   2
+U$14     PADSMALL       PADSMALL   PAD        colour   2

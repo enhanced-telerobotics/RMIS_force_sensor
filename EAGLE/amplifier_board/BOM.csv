@@ -1,0 +1,58 @@
+Partlist
+
+Exported from amp_board_nolabels.sch at 8/18/2022 4:33 PM
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value              Device             Package                        Library        Sheet
+
+C1       GRM033R61A104ME15D GRM033R61A104ME15D CAPC0603X33N                   SamacSys_Parts 1
+C2       GRM033R61A104ME15D GRM033R61A104ME15D CAPC0603X33N                   SamacSys_Parts 1
+C3       GRM033R61A104ME15D GRM033R61A104ME15D CAPC0603X33N                   SamacSys_Parts 1
+C4       GRM033R61A104ME15D GRM033R61A104ME15D CAPC0603X33N                   SamacSys_Parts 1
+C5       GRM033R61A104ME15D GRM033R61A104ME15D CAPC0603X33N                   SamacSys_Parts 1
+C6       GRM033R61A104ME15D GRM033R61A104ME15D CAPC0603X33N                   SamacSys_Parts 1
+C7       GRM033R61A104ME15D GRM033R61A104ME15D CAPC0603X33N                   SamacSys_Parts 1
+C8       GRM033R61A104ME15D GRM033R61A104ME15D CAPC0603X33N                   SamacSys_Parts 1
+H1       MOUNT-PAD-ROUND4.3 MOUNT-PAD-ROUND4.3 4,3-PAD                        holes          1
+H2       MOUNT-PAD-ROUND4.3 MOUNT-PAD-ROUND4.3 4,3-PAD                        holes          1
+H3       MOUNT-PAD-ROUND4.3 MOUNT-PAD-ROUND4.3 4,3-PAD                        holes          1
+H4       MOUNT-PAD-ROUND4.3 MOUNT-PAD-ROUND4.3 4,3-PAD                        holes          1
+INAMP1   AD623ANZ           AD623ANZ           DIP794W56P254L959H533Q8N       SamacSys_Parts 1
+INAMP2   AD623ANZ           AD623ANZ           DIP794W56P254L959H533Q8N       SamacSys_Parts 1
+INAMP3   AD623ANZ           AD623ANZ           DIP794W56P254L959H533Q8N       SamacSys_Parts 1
+INAMP4   AD623ANZ           AD623ANZ           DIP794W56P254L959H533Q8N       SamacSys_Parts 1
+INAMP5   AD623ANZ           AD623ANZ           DIP794W56P254L959H533Q8N       SamacSys_Parts 1
+INAMP6   AD623ANZ           AD623ANZ           DIP794W56P254L959H533Q8N       SamacSys_Parts 1
+INAMP7   AD623ANZ           AD623ANZ           DIP794W56P254L959H533Q8N       SamacSys_Parts 1
+INAMP8   AD623ANZ           AD623ANZ           DIP794W56P254L959H533Q8N       SamacSys_Parts 1
+J1       10-89-7102         10-89-7102         HDRV10W87P254_2X5_1283X508X864 SamacSys_Parts 1
+J2       10-89-7102         10-89-7102         HDRV10W87P254_2X5_1283X508X864 SamacSys_Parts 1
+OUT      10-89-7102         10-89-7102         HDRV10W87P254_2X5_1283X508X864 SamacSys_Parts 1
+P1                          TRIM_US-S64Y       S64Y                           pot            1
+P2                          TRIM_US-S64Y       S64Y                           pot            1
+P3                          TRIM_US-S64Y       S64Y                           pot            1
+P4                          TRIM_US-S64Y       S64Y                           pot            1
+PC1      T489A106K010ATA2K2 T489A106K010ATA2K2 CAPPM3216X180N                 SamacSys_Parts 1
+PC2      T489A106K010ATA2K2 T489A106K010ATA2K2 CAPPM3216X180N                 SamacSys_Parts 1
+PC3      T489A106K010ATA2K2 T489A106K010ATA2K2 CAPPM3216X180N                 SamacSys_Parts 1
+PC4      T489A106K010ATA2K2 T489A106K010ATA2K2 CAPPM3216X180N                 SamacSys_Parts 1
+PC5      T489A106K010ATA2K2 T489A106K010ATA2K2 CAPPM3216X180N                 SamacSys_Parts 1
+PC6      T489A106K010ATA2K2 T489A106K010ATA2K2 CAPPM3216X180N                 SamacSys_Parts 1
+PC7      T489A106K010ATA2K2 T489A106K010ATA2K2 CAPPM3216X180N                 SamacSys_Parts 1
+PC8      T489A106K010ATA2K2 T489A106K010ATA2K2 CAPPM3216X180N                 SamacSys_Parts 1
+PWR      TB001-500-02BE     TB001-500-02BE     TB00150002BE                   SamacSys_Parts 1
+R1       RT1206BRD075KL     RT1206BRD075KL     RESC3116X65N                   SamacSys_Parts 1
+R2       RT1206BRD075KL     RT1206BRD075KL     RESC3116X65N                   SamacSys_Parts 1
+R3       RT1206BRD075KL     RT1206BRD075KL     RESC3116X65N                   SamacSys_Parts 1
+R4       RT1206BRD075KL     RT1206BRD075KL     RESC3116X65N                   SamacSys_Parts 1
+R5       RT1206BRD075KL     RT1206BRD075KL     RESC3116X65N                   SamacSys_Parts 1
+R6       RT1206BRD075KL     RT1206BRD075KL     RESC3116X65N                   SamacSys_Parts 1
+R7       RT1206BRD075KL     RT1206BRD075KL     RESC3116X65N                   SamacSys_Parts 1
+R8       RT1206BRD075KL     RT1206BRD075KL     RESC3116X65N                   SamacSys_Parts 1
+R13                         TRIM_US-S64Y       S64Y                           pot            1
+R14                         TRIM_US-S64Y       S64Y                           pot            1
+R15                         TRIM_US-S64Y       S64Y                           pot            1
+R16                         TRIM_US-S64Y       S64Y                           pot            1

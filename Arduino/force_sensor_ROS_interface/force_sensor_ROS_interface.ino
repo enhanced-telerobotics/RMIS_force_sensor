@@ -1,10 +1,10 @@
 /*
- * rosserial PubSub Example
- * Prints "hello world!" and toggles led
+ * Sketch to publish sensor value to ROS from Arduino using predefined calibration matrices
+ * Zonghe Chua
  */
 
-#define ROS
-//#define DEBUG
+#define ROS //enable this to publish forces to ROS via serial
+//#define DEBUG //enable this to print the sensor values to serial
 
 #include <ros.h>
 #include <std_msgs/String.h>
@@ -24,10 +24,12 @@ ros::Publisher rightWrench_pub("rightWrench",&rightWrench);
 
 BLA::Matrix<9> R = {0,0,0,0,0,0,0,0,1};
 BLA::Matrix<9> L = {0,0,0,0,0,0,0,0,1};
+
+// We need to define two calibration matrices
+
 BLA::Matrix<3,9> AL = {1.49521,1.21442,0.48884,1.10765,-1.93021,-1.10197,-0.21703,-1.05919,0.04535,
 0.21098,0.72545,0.01498,-0.46418,-0.01693,0.56959,-0.17388,-0.95753,0.06980,
 2.56488,3.10738,3.11407,3.10949,-3.08380,-3.10661,-2.34423,-3.13610,0.01795};
-
 
 BLA::Matrix<3,9> AR = {1.68307, 0.93943, 0.14401, 1.07988, -1.79573, -0.89472, -0.34823, -0.89765, 0.03359,
 0.08388, 0.66539, 0.09018, -0.61163, 0.02772, 0.56665, 0.09652, -0.86233, -0.00371,

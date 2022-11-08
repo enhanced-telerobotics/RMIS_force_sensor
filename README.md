@@ -14,7 +14,7 @@ The most basic assembly which contains the important components to build the for
 ### ECAD Folder ( contains sch and brd files as well as BOM)
 	- Force sensor board (ALPS2)
 	- Amplifier circuit (amplifier_board)
-	- component library (Sensor_Parts.lbr)
+	- component library (Parts.lbr)
 
 ### Arduino Folder
 	- Arduino to ROS using Serial (force_sensor_ROS_interface)

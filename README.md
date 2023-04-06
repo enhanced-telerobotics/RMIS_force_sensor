@@ -67,7 +67,7 @@ Use the potentiometers to adjust the reference voltage level of the amplifier.
 
 To help you visualize the method for putting the sensor together, please watch the YouTube video at this link:
 
-![Instruction Video](https://img.youtube.com/vi/f3iW-S_-euE/maxresdefault.jpg)](https://youtu.be/f3iW-S_-euE)
+[![Instruction Video](https://img.youtube.com/vi/f3iW-S_-euE/maxresdefault.jpg)](https://youtu.be/f3iW-S_-euE)
 
 Once you are done, you can follow the methods in our paper to calibrate the sensor using a reference force sensor. We have provided an example of a calibration jig that uses 2 of these (translational) stages mounted on an acrylic base.
 

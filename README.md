@@ -37,7 +37,22 @@ This ROS script will compute the estimated gripper pose in the robot base frame 
 
 To make the force sensor you will need the following components on hand.
 
-(INSERT BOM HERE)
+| Sensor   Assembly       |     |                  |               |                       |                                        |
+|-------------------------|-----|------------------|---------------|-----------------------|----------------------------------------|
+| Item                    | Qty | Part Number      | Vendor        | Vendor Part Number    | Comment                                |
+| 36 AWG wire             | 3   | 4733             | Adafruit      | 4854733               |                                        |
+| Molex female connectors | 2   | 22552101         | Mouser        | 53822552101           |                                        |
+| Molex header pins       | 10  | 16020074         | Mouser        | 53816020074LP         |                                        |
+| M2x3 screws             | 2   |        91801A550 | McMaster Carr |        91801A550      |                                        |
+| M1.2x3 screws           | 4   |        91430A153 | McMaster Carr |        91430A153      | Alternate component from actual design |
+| M1.2x8 screws           | 4   | 91800A085        | McMaster Carr | 91800A085             | Alternate component from actual design |
+| 1DoF force sensors      | 8   | HSFPAR003A       | Mouser        |        688-HSFPAR003A |                                        |
+| Sensor Array PCB        | 2   |                  | Osh Park      |                       |                                        |
+| Jaw attachment          | 1   |                  | Protolabs     |                       | Machined in aluminum                   |
+| Base                    | 1   |                  | Protolabs     |                       | 3D printed in aluminum                 |
+| Sensing plate and rod   | 1   |                  | Protolabs     |                       | Machined in stainless steel            |
+| Strain relief bracket   | 1   |                  |               |                       | 3D printed in Objet Verowhite          |
+| Wire clamp              | 1   |                  |               |                       | 3D printed in Objet Verowhite          |
 
 ### Soldering the sensor PCB
 

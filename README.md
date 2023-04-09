@@ -56,7 +56,7 @@ To make the force sensor you will need the following components on hand.
 
 ### Soldering the sensor PCB
 
-To solder the circuit PCB, you will need to perform surface mount soldering of the ALPS sensors. We recommend using a heat plate such as [this one]([https://www.adafruit.com/product/4948]) sold by Adafruit. When the solder paste has been liquified, you can place the sensors in the orientation shown below using tweezers. Take note of the alignment dots. DO NOT USE ADDITIONAL FLUX. This will damage the sensing nibs.
+To solder the circuit PCB, you will need to perform surface mount soldering of the ALPS sensors. We recommend using a heat plate such as [this one](https://www.adafruit.com/product/4948) sold by Adafruit. When the solder paste has been liquified, you can place the sensors in the orientation shown below using tweezers. Take note of the alignment dots. DO NOT USE ADDITIONAL FLUX. This will damage the sensing nibs.
 
 ![pcb layout](/images/PCB_layout.png)
 

@@ -40,6 +40,7 @@ To make the force sensor you will need the following components on hand.
 | Sensor   Assembly       |     |                  |               |                       |                                        |
 |-------------------------|-----|------------------|---------------|-----------------------|----------------------------------------|
 | Item                    | Qty | Part Number      | Vendor        | Vendor Part Number    | Comment                                |
+|-------------------------|-----|------------------|---------------|-----------------------|----------------------------------------|
 | 36 AWG wire             | 3   | 4733             | Adafruit      | 4854733               |                                        |
 | Molex female connectors | 2   | 22552101         | Mouser        | 53822552101           |                                        |
 | Molex header pins       | 10  | 16020074         | Mouser        | 53816020074LP         |                                        |
@@ -78,15 +79,17 @@ To help you visualize the method for putting the sensor together, please watch t
 
 The amplifier board requires the following components. Each board supports a single sensor assembly.
 
-| Amplifier   Board             |   |                    |         |                     |
-|-------------------------------|---|--------------------|---------|---------------------|
-| Instrumentation amplifier     | 8 | AD623ANZ           |         |                     |
-| Molex male header             | 3 | 10897102           | Mouser  | 53810897102         |
-| Murata capacitor 1uF          | 8 | GRM033R61A104ME15D | Mouser  | 81GRM033R61A104ME5D |
-| KEMET tantalum capacitor 10uF | 8 | T489A106K010ATA2K2 | Mouser  | 80T489A106K10ATA2K2 |
-| YAGEO 5K ohm resistor         | 8 | RT1206BRD075KL     | Mouser  | 603RT1206BRD075KL   |
-| Vishay 25K ohm trimmer        | 8 | T93YB253KT20       | Mouser  | 72T93YB25K          |
-| PCB                           | 2 |                    | Oshpark |                     |
+| Amplifier   Board             |     |                    |         |                     |
+|-------------------------------|-----|--------------------|---------|---------------------|
+| Item                          | Qty | Part Number        | Vendor  | Vendor Part Number  |
+|-------------------------------|-----|--------------------|---------|---------------------|
+| Instrumentation amplifier     | 8   | AD623ANZ           |         |                     |
+| Molex male header             | 3   | 10897102           | Mouser  | 53810897102         |
+| Murata capacitor 1uF          | 8   | GRM033R61A104ME15D | Mouser  | 81GRM033R61A104ME5D |
+| KEMET tantalum capacitor 10uF | 8   | T489A106K010ATA2K2 | Mouser  | 80T489A106K10ATA2K2 |
+| YAGEO 5K ohm resistor         | 8   | RT1206BRD075KL     | Mouser  | 603RT1206BRD075KL   |
+| Vishay 25K ohm trimmer        | 8   | T93YB253KT20       | Mouser  | 72T93YB25K          |
+| PCB                           | 2   |                    | Oshpark |                     |
 
 Layout the components for the amplifier board according to the schematic below and solder them on in a reflow oven (or if you are really skilled you can hand solder).
 

@@ -39,7 +39,7 @@ To make the force sensor you will need the following components on hand.
 
 | Sensor   Assembly       |     |                  |               |                       |                                        |
 |-------------------------|-----|------------------|---------------|-----------------------|----------------------------------------|
-| **Item                  | **Qty** | **Part Number**      | **Vendor**       | **Vendor Part Number**    | **Comment**                                |
+| **Item**                  | **Qty** | **Part Number**      | **Vendor**       | **Vendor Part Number**    | **Comment**                                |
 | 36 AWG wire             | 3   | 4733             | Adafruit      | 4854733               |                                        |
 | Molex female connectors | 2   | 22552101         | Mouser        | 53822552101           |                                        |
 | Molex header pins       | 10  | 16020074         | Mouser        | 53816020074LP         |                                        |

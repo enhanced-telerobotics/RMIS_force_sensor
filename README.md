@@ -39,8 +39,7 @@ To make the force sensor you will need the following components on hand.
 
 | Sensor   Assembly       |     |                  |               |                       |                                        |
 |-------------------------|-----|------------------|---------------|-----------------------|----------------------------------------|
-| Item                    | Qty | Part Number      | Vendor        | Vendor Part Number    | Comment                                |
-|-------------------------|-----|------------------|---------------|-----------------------|----------------------------------------|
+| **Item                  | **Qty** | **Part Number**      | **Vendor**       | **Vendor Part Number**    | **Comment**                                |
 | 36 AWG wire             | 3   | 4733             | Adafruit      | 4854733               |                                        |
 | Molex female connectors | 2   | 22552101         | Mouser        | 53822552101           |                                        |
 | Molex header pins       | 10  | 16020074         | Mouser        | 53816020074LP         |                                        |
@@ -81,8 +80,7 @@ The amplifier board requires the following components. Each board supports a sin
 
 | Amplifier   Board             |     |                    |         |                     |
 |-------------------------------|-----|--------------------|---------|---------------------|
-| Item                          | Qty | Part Number        | Vendor  | Vendor Part Number  |
-|-------------------------------|-----|--------------------|---------|---------------------|
+| **Item**                          | **Qty** | **Part Number**        | **Vendor**  | **Vendor Part Number**  |
 | Instrumentation amplifier     | 8   | AD623ANZ           |         |                     |
 | Molex male header             | 3   | 10897102           | Mouser  | 53810897102         |
 | Murata capacitor 1uF          | 8   | GRM033R61A104ME15D | Mouser  | 81GRM033R61A104ME5D |

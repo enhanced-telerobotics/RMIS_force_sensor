@@ -1,6 +1,6 @@
 # Open Source Force Sensor for Robot-assisted Minimally Invasive Surgery Research
 
-This repo contains the CAD and ECAD files needed to construct the force sensor as described in the our paper. 
+This repo contains the CAD and ECAD files needed to construct the force sensor as described in the our paper.
 
 It is organized in the following manner:
 
@@ -10,6 +10,19 @@ It is organized in the following manner:
 - Calibration Assembly (calibration_setup.sldasm)
 
 The most basic assembly which contains the important components to build the force sensor is found in the Single Force Sensor Assembly. The Calibration Assembly contains the designs for two fixtures that are meant to be mounted on to 3-axis translating stages. Please adapt these shapes to your own calibration set up or build your own.
+
+If you use this for your research or other work, please cite our [paper](https://arxiv.org/abs/2211.05428)
+
+Z. Chua and A.M. Okamura “A modular 3-degree-of-freedom force sensor for robot-assisted minimally invasive surgery research,” arXiv:2211.05428 [cs.RO], 2022. 
+
+@misc{chua2022modular,
+      title={A Modular 3-Degree-of-Freedom Force Sensor for Robot-assisted Minimally Invasive Surgery Research}, 
+      author={Zonghe Chua and Allison M. Okamura},
+      year={2022},
+      eprint={2211.05428},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
 
 #### Single Force Sensor Assembly Model
 ![Single Force Sensor Assembly](/images/single_force_sensor_asm.jpg)
@@ -26,7 +39,7 @@ The most basic assembly which contains the important components to build the for
 ### Arduino Folder
 	- Arduino to ROS or Arduino GUI using Serial (force_sensor_ROS_interface)
 
-The Arduino code requires installing the ROSserial library and the basic linear algebra library. It will send the force values in the local frame of the sensor to ROS as topics.
+The Arduino code requires installing the ROSserial library and the basic linear algebra library. It will send the force values in the local frame of the sensor to ROS as topics. When used in DEBUG mode it will print the amplified sensor output values to serial. 
 
 ### ROS Folder
 	- script to resolve forces into robot frame (compute_pose.py)
@@ -107,13 +120,11 @@ The potentiometers can be used to adjust the reference voltage level of each amp
 
 ![calibration rig](/images/static_cal.png)
 
-Once you are done, you can follow the methods in our paper to calibrate the sensor using a reference force sensor. We have provided an example of a calibration jig that uses 2 of these [(translational) stages](https://a.co/d/79kogAj) mounted on an acrylic base. Our jig was designed for an ATI Nano17 to act as the reference force sensor.
+Once you are done, you can follow the methods in our [paper](https://arxiv.org/abs/2211.05428) to calibrate the sensor using a reference force sensor. We have provided an example of a calibration jig that uses 2 of these [(translational) stages](https://a.co/d/79kogAj) mounted on an acrylic base. Our jig was designed for an ATI Nano17 to act as the reference force sensor.
 
-If you have an ATI nano17 and a NIDAQ data acquisition board you can compile and run the provided visual studio solution.
+We are currently working on releasing a calibration program that can read the sensor outputs from the microcontroller via serial and reference force data from an ATI Nano17 through a NIDAQ data acquisition card. This will make it easier to perform calibration by allowing one to record all 8 sensor values and the reference force in a near-simultaneous manner. It will also allow for dynamic calibrations.
 
-Instead of running a static calibration using the translational fixture you can also do a dynamic calibration by randomly perturbing the jaw attachment.
-
-2 calibrated sensors will be needed to fully instrument a single tool.
+Note: 2 calibrated sensors will be needed to fully instrument a single tool.
 
 ## Tips for Manufacturing
 

@@ -126,6 +126,10 @@ We are currently working on releasing a calibration program that can read the se
 
 Note: 2 calibrated sensors will be needed to fully instrument a single tool.
 
+### Force measurements in ROS
+
+Once you have 2 calibrated sensors that are mounted on the large needle driver endowrist tool, you can perform resolved force measurements for that tool in ROS. First you will need to update the calibration matrices for both sensors assemblies in the provided Arduino sketch. The sketch will open a ROS node via serial to publish the sensor values. The provided ROS script will resolve the sensor values into a grip force and a resultant force based on the estimated pose of the tool as measured from the dVRK joint encoders.
+
 ## Tips for Manufacturing
 
 ### Manufacturers

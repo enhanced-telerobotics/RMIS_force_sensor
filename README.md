@@ -24,7 +24,7 @@ The most basic assembly which contains the important components to build the for
 	- component library (Parts.lbr)
 
 ### Arduino Folder
-	- Arduino to ROS using Serial (force_sensor_ROS_interface)
+	- Arduino to ROS or Arduino GUI using Serial (force_sensor_ROS_interface)
 
 The Arduino code requires installing the ROSserial library and the basic linear algebra library. It will send the force values in the local frame of the sensor to ROS as topics.
 
@@ -47,6 +47,7 @@ To make the force sensor you will need the following components on hand.
 | M1.2x3 screws           | 4   |        91430A153 | McMaster Carr |        91430A153      | Alternate component from actual design |
 | M1.2x8 screws           | 4   | 91800A085        | McMaster Carr | 91800A085             | Alternate component from actual design |
 | 1DoF force sensors      | 8   | HSFPAR003A       | Mouser        |        688-HSFPAR003A |                                        |
+| Kapton tape             | 1   |                  | Amazon        |                       |    Any roll is fine                    |
 | Sensor Array PCB        | 2   |                  | Osh Park      |                       |                                        |
 | Jaw attachment          | 1   |                  | Protolabs     |                       | Machined in aluminum                   |
 | Base                    | 1   |                  | Protolabs     |                       | 3D printed in aluminum                 |
@@ -72,9 +73,9 @@ A good tutorial for how to crimp wires can be found [here](https://www.youtube.c
 
 To help you visualize the method for putting the sensor together, please watch the YouTube video at this link:
 
-[![Instruction Video](https://img.youtube.com/vi/f3iW-S_-euE/maxresdefault.jpg)](https://youtu.be/f3iW-S_-euE)
+[![Instruction Video](https://img.youtube.com/vi/rOO5C869PlU/maxresdefault.jpg)](https://youtu.be/rOO5C869PlU)
 
-### Soldering and Making Connections for the Amplifier Board
+### Assembling the Amplifier Board
 
 The amplifier board requires the following components. Each board supports a single sensor assembly.
 
@@ -88,20 +89,29 @@ The amplifier board requires the following components. Each board supports a sin
 | YAGEO 5K ohm resistor         | 8   | RT1206BRD075KL     | Mouser  | 603RT1206BRD075KL   |
 | Vishay 25K ohm trimmer        | 8   | T93YB253KT20       | Mouser  | 72T93YB25K          |
 | PCB                           | 2   |                    | Oshpark |                     |
+| 2 Pos, 5mm Pitch Terminal Blk | 1   |  TB001-500-02BE  | DigiKey | 102-6134-ND         |
 
 Layout the components for the amplifier board according to the schematic below and solder them on in a reflow oven (or if you are really skilled you can hand solder).
 
-The connection diagrams are shown in the image below. Once you connect it to a microcontroller or oscilloscope, you should be able to read the voltage output of each of the ALPs sensors.
+![amplifier board](/images/amp_board.png)
 
-(Image of board connected to a sensor assembly)
+### Connecting the Amplifier Board
 
-You should also adjust the preloading of each sensor by tightening or loosening the four screws that compress the sensor arrays into the sensing plate. You will want the sensors to respond almost immediately to any force without any deadzone. You may need to shim the contact surfaces of the sensor plate to get good results.
+The connection diagrams are shown in the image below. Once you connect your sensors to the board and to a microcontroller or oscilloscope, you should be able to read the voltage output of each of the ALPs sensors. You can use the provided Arduino sketch in DEBUG mode to read the amplified sensor values. You might need to modify the sketch to read from different analog inputs depending on how you have made your connections.
+
+Once connected you should inspect the readings while adjusting the preloading of each sensor by tightening or loosening the four screws that compress the sensor arrays into the sensing plate. You will want the sensors to respond almost immediately to any force without any deadzone. You may need to shim the contact surfaces of the sensor plate to get good results.
 
 The potentiometers can be used to adjust the reference voltage level of each amplifier chip. This sets the baseline voltage for zero force. 
 
 ### Sensor Calibration
 
-Once you are done, you can follow the methods in our paper to calibrate the sensor using a reference force sensor. We have provided an example of a calibration jig that uses 2 of these [(translational) stages](https://a.co/d/79kogAj) mounted on an acrylic base. Our jig was designed for an ATI Nano17 to act as the reference force sensor. 
+![calibration rig](/images/static_cal.png)
+
+Once you are done, you can follow the methods in our paper to calibrate the sensor using a reference force sensor. We have provided an example of a calibration jig that uses 2 of these [(translational) stages](https://a.co/d/79kogAj) mounted on an acrylic base. Our jig was designed for an ATI Nano17 to act as the reference force sensor.
+
+If you have an ATI nano17 and a NIDAQ data acquisition board you can compile and run the provided visual studio solution.
+
+Instead of running a static calibration using the translational fixture you can also do a dynamic calibration by randomly perturbing the jaw attachment.
 
 2 calibrated sensors will be needed to fully instrument a single tool.
 

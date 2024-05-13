@@ -1,0 +1,276 @@
+{
+    "DH_params": [
+        {
+            "convention": "modified",
+            "alpha": 1.5708,
+            "A": 0.0000,
+            "theta": 0.0000,
+            "D": 0.0000,
+            "type": "revolute",
+            "mode": "active",
+            "offset": 1.5708
+        },
+        {
+            "convention": "modified",
+            "alpha": -1.5708,
+            "A": 0.0000,
+            "theta": 0.0000,
+            "D": 0.0000,
+            "type": "revolute",
+            "mode": "active",
+            "offset": -1.5708
+        },
+        {
+            "convention": "modified",
+            "alpha": 1.5708,
+            "A": 0.0000,
+            "theta": 0.0000,
+            "D": 0.0000,
+            "type": "prismatic",
+            "mode": "active",
+            "offset": -0.4318
+        },
+        {
+            "convention": "modified",
+            "alpha": 0.0000,
+            "A": 0.0000,
+            "theta": 0.0000,
+            "D": 0.4162,
+            "type": "revolute",
+            "mode": "active",
+            "offset": 0.0000
+        },
+        {
+            "convention": "modified",
+            "alpha": -1.5708,
+            "A": 0.0000,
+            "theta": 0.0000,
+            "D": 0.0000,
+            "type": "revolute",
+            "mode": "active",
+            "offset": -1.5708
+        },
+        {
+            "convention": "modified",
+            "alpha": -1.5708,
+            "A": 0.0091,
+            "theta": 0.0000,
+            "D": 0.0000,
+            "type": "revolute",
+            "mode": "active",
+            "offset": -1.5708
+        }
+    ],
+    "has_gripper": 1,
+    "point_features": [
+        {
+            "name": "yaw_1",
+            "link": 8,
+            "position": [0.00075,0.024,0.0026]
+        },
+        {
+            "name": "yaw_1",
+            "link": 8,
+            "position": [0.0005,0.0143,0.0026]
+        },
+        {
+            "name": "yaw_1",
+            "link": 8,
+            "position": [0.0068,0.00525,0.00345]
+        },
+        {
+            "name": "yaw_2",
+            "link": 7, 
+            "position": [-0.00075,0.024,0.0026]
+        },
+        {
+            "name": "yaw_2",
+            "link": 7, 
+            "position": [-0.0005,0.0143,0.0026]
+        },
+        {
+            "name": "yaw_2",
+            "link": 7, 
+            "position": [-0.0068,0.00525,0.00345]
+        },
+        {
+            "name": "roll_1:front",
+            "link": 4,
+            "position": [
+                -0.004,
+                0,
+                -0.00625
+            ]
+        },
+        {
+            "name": "roll_1:back",
+            "link": 4,
+            "position": [
+                0.004,
+                0,
+                -0.00625
+            ]
+        },
+        {
+            "name": "roll_2:right",
+            "link": 4,
+            "position": [
+                0,
+                0.004,
+                0
+            ]
+        },
+        {
+            "name": "roll_2:left",
+            "link": 4,
+            "position": [
+                0,
+                -0.004,
+                0
+            ]
+        },
+        {
+            "name": "pitch_2:front",
+            "link": 5,
+            "position": [
+                0.00275,
+                -0.00275,
+                -0.00025
+            ]
+        },
+        {
+            "name": "pitch_2:back",
+            "link": 5,
+            "position": [
+                0.00275,
+                0.00275,
+                0.00025
+            ]
+        },
+        {
+            "name": "pitch_1:right",
+            "link": 5,
+            "position": [
+                0.0036,
+                -0.0014,
+                0.003
+            ]
+        },
+        {
+            "name": "pitch_1:left",
+            "link": 5,
+            "position": [
+                0.0036,
+                0.0014,
+                -0.003
+            ]
+        },
+        {
+            "name": "pitch_3:front",
+            "link": 6,
+            "position": [
+                0.0,
+                0.0,
+                -0.00275
+            ]
+        },
+        {
+            "name": "pitch_3:back",
+            "link": 6,
+            "position": [
+                0.0,
+                0.0,
+                0.00275
+            ]
+        }
+    ],
+    "skeleton_structure": [
+        {
+            "link1": 2,
+            "position1": [
+                0,
+                -0.07,
+                0
+            ],
+            "link2": 4,
+            "position2": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "link1": 4,
+            "position1": [
+                0,
+                0,
+                0
+            ],
+            "link2": 5,
+            "position2": [
+                0.0,
+                0,
+                0
+            ]
+        },
+        {
+            "link1": 5,
+            "position1": [
+                0,
+                0,
+                0
+            ],
+            "link2": 6,
+            "position2": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "link1": 6,
+            "position1": [
+                0,
+                0,
+                0
+            ],
+            "link2": 7,
+            "position2": [
+                0,
+                0.0258,
+                0
+            ]
+        },
+        {
+            "link1": 6,
+            "position1": [
+                0,
+                0,
+                0
+            ],
+            "link2": 8,
+            "position2": [
+                0,
+                0.0258,
+                0
+            ]
+        }
+    ],
+    "shaft_features": [
+        {
+            "name": "insertion_shaft",
+            "link": 2,
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "direction": [
+                0,
+                1,
+                0
+            ],
+            "radius": 0.004
+        }
+    ]
+}
